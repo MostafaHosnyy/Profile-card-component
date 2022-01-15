@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+--Dark-cyan: hsl(185, 75%, 39%);
+--Very-dark-desaturated-blue:hsl(229, 23%, 23%);
+--Dark-grayish-blue: hsl(227, 10%, 46%);
+--Dark-gray: hsl(0, 0%, 59%);
+}
+body{
+    background-color: var(--Dark-cyan);
+    height: 100%;
+    font-family: 'Kumbh Sans', sans-serif; ;
+    font-size: 18px;
+    background-image: url(images/bg-pattern-top.svg),url(images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-position: bottom 40vh right 55vw , bottom -88vh left 50vw;
+}
+.main-wrapper{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-container{
+    background-color: #fff;
+    width: 350px;
+    height:374px;
+    border-radius: 15px;
+    position: relative;
+}
+.img-card{
+    border-radius: 15px 15px 0 0;;
+}
+.victor-avatar{
+    border-radius: 100px;
+    position: absolute;
+    margin: 85px auto 0 auto;
+    border: 5px solid #fff;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.middle-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.victor-name-age{
+    display: flex;
+    margin-top: 65px;
+    justify-content: center;
+    text-align: center;
+}
+.victor-name-age h1{
+   color: var(--very-dark-desaturated-blue);
+   font-weight: 700;
+   font-size: 1em;
+   margin-right: 8px;
+}
+.victor-name-age p{
+    color: var(--dark-grayish-blue);
+    font-weight: 400;
+}
+.victor-city{
+    color: var(--dark-grayish-blue);
+    font-weight: 400;
+    font-size: 0.7em;
+    margin-top: 7px;
+}
+.bottom-section{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 22px 48px;
+    margin-top: 28px;
+    line-height: 1.4;
+    border-top: solid 1px lightgray;
+}
+.bottom-section h2{
+    color: var(--very-dark-desaturated-blue);
+    font-weight: 700;
+    font-size: 1em;
+    cursor:pointer;
+}
+.bottom-section p{
+    color:var(--very-dark-desaturated-blue);
+    font-weight: 400;
+    font-size: 0.7em;
+}
+.attribution{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width:600px){
+    body{
+        background-position:bottom 41vh right 43vw, bottom -90vh left 31vw ;
+    }
+}
+
+
+
+
+
+
+
+
+
+
